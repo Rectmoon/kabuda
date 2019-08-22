@@ -1,0 +1,50 @@
+{
+  "threads": {
+    "t1": {
+      ".key": "t1",
+      "title": "vue",
+      "publishedAt": "",
+      "posts": {
+        "p1": 1
+      },
+      "userId": "YC00779"
+    }
+  },
+  "posts": {
+    "p1": {
+      ".key": "p1",
+      "publishedAt": "",
+      "userId": "",
+      "text": "fantasy",
+      "threadId": "t1"
+    }
+  },
+  "users": {
+    "YC00779": {
+      "name": "Rectmoon",
+      ".key": "YC00779",
+      "threads": ["t1"],
+      "posts": ["p1"]
+    }
+  },
+  "fourms": {
+    "f1": {
+      ".key": "f1",
+      "name": "chess",
+      "description": "",
+      "category": "c1",
+      "threads": {
+        "t1": "t1"
+      }
+    }
+  },
+  "categories": {
+    "c1": {
+      ".key": "c1",
+      "name": "ok",
+      "forums": {
+        "f1": "f1"
+      }
+    }
+  }
+}
