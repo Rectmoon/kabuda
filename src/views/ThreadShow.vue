@@ -44,6 +44,10 @@ export default {
       posts,
       users
     }
+  },
+
+  mounted () {
+    console.log(111)
   }
 }
 </script>
